@@ -20,7 +20,7 @@ from telegram.ext import filters
 TELEGRAM_BOT_TOKEN = "8131175099:AAEy3hwN2thPulSRRF6BY3GSZfzo7AUz5yY"
 ASSEMBLY_API_KEY = "2f237a1af6b543e6806656b53204f654"
 aai.settings.api_key = ASSEMBLY_API_KEY
-FILES_DIR = Path("C:/Users/Administrator/Documents/files")
+FILES_DIR = Path("/bot_data")
 FILES_DIR.mkdir(exist_ok=True)
 
 # Conversation states
